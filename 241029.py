@@ -1,3 +1,6 @@
+#这是用 Python 语言实现的深度学习代码，具体是使用了 Keras 库构建神经网络模型
+#在这段代码中，定义了一个顺序模型（Sequential），依次添加了卷积层（Conv2D）、激活函数层（Activation）、最大池化层（MaxPooling2D）、展平层（Flatten）和全连接层（Dense）等
+#运行这个模型进行训练和预测，还需要准备数据、定义损失函数、优化器等，并进行训练循环
 from keras.models import Sequential
 from keras.layers import Conv2D, Activation, MaxPooling2D, Flatten, Dense
 
